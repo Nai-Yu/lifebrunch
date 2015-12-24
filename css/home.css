@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+margin: 0 auto;
+text-align: center;
+font-family: Microsoft JhengHei; 
+background:url("../img/bg1.jpg");
+}
+
+header{
+	position: relative;
+	width: 900px;
+	height: 250px;	
+	margin: auto;	
+}
+header >h1{
+	position: absolute;
+	top: 30px;
+	left:10px;
+
+}
+header>h1>a>img{
+	height: 80px;
+	width: 80px;
+}
+.logo_font{
+	position: absolute;
+	top: 65px;
+	left: 100px;
+	font-size: 30px;
+	color: green;
+}
+a{
+	text-decoration: none;
+}
+.font_cover{
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+	width: 230px;
+	height: 230px;
+}
+.cover{
+	float: right;
+	margin-top: 130px;
+	width: 423px;
+	height: 47px;
+}
+.fb_icon{
+	width: 50px;
+	height: 37px;
+}
+.fb{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+.fb>a{
+	color: 	#0044BB;
+}
+#middle{
+	position: relative;
+	width: 900px;
+	margin: auto;
+}
+#cheif{
+	position: absolute;
+	top: 150px;
+	right: 270px;
+	width: 133px;
+	height: 172px;
+}
+.news{
+	width: 350px;
+	height: 290px;
+	border-color: #78B400;
+	border-style:solid;
+	border-width:10px;
+	padding:10px;
+	float: right;
+	background: white;
+}
+.news >strong{
+	font-size: 26px;
+	color: #DB0000;
+}
+.news >ul{
+margin-top: 10px;
+}
+.news >ul >li{
+	font-size: 18px;
+	line-height: 26px;
+}
+
+#abgne_marquee {
+	position: relative;
+	overflow: hidden;	/* 超出範圍的部份要隱藏 */
+	width: 280px;
+	height: 50px;
+	border: 1px solid #ccc;
+	right: -70px;
+	top:130px;
+}
+#abgne_marquee ul, div#abgne_marquee li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#abgne_marquee ul {
+	position: absolute;
+}
+#abgne_marquee ul li a {
+	display: block;
+	overflow: hidden;	/* 超出範圍的部份要隱藏 */
+	font-size:12px;
+	height: 25px;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	height: 90px;
+	background: white;
+	background: rgba(100%,100%,100%,0.5);
+	margin-top: -10px;
+}
+
+.site-info table{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 650px;
+	height: 50px;
+	text-align:left;
+	font-size: 12px;
+	border-collapse: 5px;
+}
+
+.site-info a{
+	color: #09c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.site-info img{
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin:25 30 0 0;
+}
+
+hr{
+	float: left;
+	margin-top: 30px;
+}
